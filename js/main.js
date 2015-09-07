@@ -1,6 +1,6 @@
 /**
- * AngularJS Tutorial 1
- * @author Nick Kaye <nick.c.kaye@gmail.com>
+ * GTM in AngularJS Tutorial
+ * @author Kashish Gupta <kashishgupta1990@yahoo.com>
  */
 
 /**
@@ -81,12 +81,8 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
     })
 });
 
-/*
 app.run(function ($rootScope, $location) {
     $rootScope.$on("$routeChangeStart", function (event, next, current) {
-        ga('send', 'pageview', {
-            page: $location.absUrl(),
-            title: 'Really!!'
-        });
+        // TODO on state change
     });
-});*/
+});

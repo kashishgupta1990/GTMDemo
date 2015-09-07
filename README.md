@@ -1,6 +1,4 @@
-Google Analytics with AngularJS
+Google Tag Manager in AngularJS
 ====================
 
 author: Kashish Gupta
-
-).
